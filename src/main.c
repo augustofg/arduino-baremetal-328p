@@ -28,7 +28,7 @@ int main(void) {
     DDRD |= (1 << 4);
 
     /*
-	 * Enable the Timer0 interrupt, 1ms period (assuming a 16MHz clock)
+     * Enable the Timer0 interrupt, 1ms period (assuming a 16MHz clock)
      */
     TCNT0 = 0;
     OCR0A = 250;
